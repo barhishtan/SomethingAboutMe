@@ -72,7 +72,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About My Love" image="Two" landscapeImage="Two" largeContentSizeImage="Two" id="xjl-xg-Yl6"/>
+                    <tabBarItem key="tabBarItem" title="About My Love" image="Two2" landscapeImage="Two2" largeContentSizeImage="Two2" id="xjl-xg-Yl6"/>
                     <connections>
                         <outlet property="photo" destination="KKH-gH-m8j" id="oZx-Ks-53d"/>
                     </connections>
@@ -357,7 +357,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PyZ-cK-3ML"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About Me" image="One" landscapeImage="One" largeContentSizeImage="One" id="Hn3-XY-lTQ"/>
+                    <tabBarItem key="tabBarItem" title="About Me" image="One1" landscapeImage="One1" largeContentSizeImage="One1" id="Hn3-XY-lTQ"/>
                     <size key="freeformSize" width="375" height="1050"/>
                     <connections>
                         <outlet property="photo" destination="to1-TS-Jfn" id="hUU-kL-vm8"/>
@@ -396,7 +396,7 @@
                                 <rect key="frame" x="98" y="122" width="124" height="186.5"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YoungA" translatesAutoresizingMaskIntoConstraints="NO" id="lcQ-HK-2lI">
-                                <rect key="frame" x="20" y="328.5" width="280" height="187"/>
+                                <rect key="frame" x="20" y="328.5" width="280" height="187.00000000000023"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -415,7 +415,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="x7A-oa-FT7"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Photo" image="Three" landscapeImage="Three" largeContentSizeImage="Three" id="d3j-Gv-AcE"/>
+                    <tabBarItem key="tabBarItem" title="My Photo" image="Three3" landscapeImage="Three3" largeContentSizeImage="Three3" id="d3j-Gv-AcE"/>
                     <connections>
                         <outlet property="firstPhoto" destination="mfa-2m-hwe" id="Ay9-Vi-Gcd"/>
                         <outlet property="secondPhoto" destination="lcQ-HK-2lI" id="nDo-Ew-FHj"/>
@@ -449,11 +449,11 @@
     </scenes>
     <resources>
         <image name="OldA" width="2560" height="1707"/>
-        <image name="One" width="25" height="25"/>
+        <image name="One1" width="25" height="25"/>
         <image name="Princess" width="960" height="720"/>
         <image name="SmallA" width="677" height="1024"/>
-        <image name="Three" width="25" height="25"/>
-        <image name="Two" width="25" height="25"/>
+        <image name="Three3" width="25" height="25"/>
+        <image name="Two2" width="25" height="25"/>
         <image name="YoungA" width="1280" height="853"/>
     </resources>
 </document>
