@@ -10,13 +10,17 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
+    @IBOutlet var photo: UIImageView!
+    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        photo.layer.cornerRadius = 10
+        photo.layer.borderWidth = 5
+        photo.layer.borderColor = UIColor.white.cgColor
     }
 
 
