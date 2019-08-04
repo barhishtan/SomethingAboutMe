@@ -18,9 +18,7 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        photo.layer.cornerRadius = 10
-        photo.layer.borderWidth = 5
-        photo.layer.borderColor = UIColor.white.cgColor
+        configurePhoto(photo)
     }
 
 

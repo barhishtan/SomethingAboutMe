@@ -10,13 +10,15 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
+    @IBOutlet var photo: UIImageView!
+    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        configurePhoto(photo)
     }
 
 }

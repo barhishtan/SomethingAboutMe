@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qEw-h1-6es">
-                                <rect key="frame" x="68.5" y="258.5" width="238" height="150.5"/>
+                                <rect key="frame" x="68.5" y="233.5" width="238" height="150.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Something" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHP-vW-PP7">
                                         <rect key="frame" x="32" y="0.0" width="174" height="43.5"/>
@@ -44,7 +44,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="qEw-h1-6es" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4VI-uv-SKs"/>
-                            <constraint firstItem="qEw-h1-6es" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="KTv-ha-uc0"/>
+                            <constraint firstItem="qEw-h1-6es" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-25" id="KTv-ha-uc0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

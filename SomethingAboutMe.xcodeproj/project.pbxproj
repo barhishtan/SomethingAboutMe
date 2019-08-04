@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A4402CE22F7840B000ABE4A /* Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4402CD22F7840B000ABE4A /* Configure.swift */; };
 		9AFFE28922F70E27002659C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFE28822F70E27002659C9 /* AppDelegate.swift */; };
 		9AFFE28B22F70E27002659C9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFE28A22F70E27002659C9 /* FirstViewController.swift */; };
 		9AFFE28E22F70E27002659C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFFE28C22F70E27002659C9 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A4402CD22F7840B000ABE4A /* Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configure.swift; sourceTree = "<group>"; };
 		9AFFE28522F70E27002659C9 /* SomethingAboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomethingAboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFFE28822F70E27002659C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AFFE28A22F70E27002659C9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				9AFFE28A22F70E27002659C9 /* FirstViewController.swift */,
 				9AFFE29A22F70F11002659C9 /* SecondViewController.swift */,
 				9AFFE29C22F70F20002659C9 /* ThirdViewController.swift */,
+				9A4402CD22F7840B000ABE4A /* Configure.swift */,
 				9AFFE28C22F70E27002659C9 /* Main.storyboard */,
 				9AFFE28F22F70E28002659C9 /* Assets.xcassets */,
 				9AFFE29122F70E28002659C9 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				9AFFE28B22F70E27002659C9 /* FirstViewController.swift in Sources */,
 				9AFFE29D22F70F20002659C9 /* ThirdViewController.swift in Sources */,
 				9AFFE28922F70E27002659C9 /* AppDelegate.swift in Sources */,
+				9A4402CE22F7840B000ABE4A /* Configure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

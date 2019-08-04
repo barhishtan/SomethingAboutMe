@@ -10,12 +10,17 @@ import UIKit
 
 class ThirdViewController: UIViewController {
     
+    @IBOutlet var firstPhoto: UIImageView!
+    @IBOutlet var secondPhoto: UIImageView!
+    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        configurePhoto(firstPhoto)
+        configurePhoto(secondPhoto)
     }
-
+    
 }
