@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9AFFE28922F70E27002659C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFE28822F70E27002659C9 /* AppDelegate.swift */; };
-		9AFFE28B22F70E27002659C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFE28A22F70E27002659C9 /* ViewController.swift */; };
+		9AFFE28B22F70E27002659C9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFE28A22F70E27002659C9 /* FirstViewController.swift */; };
 		9AFFE28E22F70E27002659C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFFE28C22F70E27002659C9 /* Main.storyboard */; };
 		9AFFE29022F70E28002659C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFFE28F22F70E28002659C9 /* Assets.xcassets */; };
 		9AFFE29322F70E28002659C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFFE29122F70E28002659C9 /* LaunchScreen.storyboard */; };
+		9AFFE29B22F70F11002659C9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFE29A22F70F11002659C9 /* SecondViewController.swift */; };
+		9AFFE29D22F70F20002659C9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFE29C22F70F20002659C9 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9AFFE28522F70E27002659C9 /* SomethingAboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomethingAboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFFE28822F70E27002659C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AFFE28A22F70E27002659C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AFFE28A22F70E27002659C9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9AFFE28D22F70E27002659C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AFFE28F22F70E28002659C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AFFE29222F70E28002659C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AFFE29422F70E28002659C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFFE29A22F70F11002659C9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9AFFE29C22F70F20002659C9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				9AFFE28822F70E27002659C9 /* AppDelegate.swift */,
-				9AFFE28A22F70E27002659C9 /* ViewController.swift */,
+				9AFFE28A22F70E27002659C9 /* FirstViewController.swift */,
+				9AFFE29A22F70F11002659C9 /* SecondViewController.swift */,
+				9AFFE29C22F70F20002659C9 /* ThirdViewController.swift */,
 				9AFFE28C22F70E27002659C9 /* Main.storyboard */,
 				9AFFE28F22F70E28002659C9 /* Assets.xcassets */,
 				9AFFE29122F70E28002659C9 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFFE28B22F70E27002659C9 /* ViewController.swift in Sources */,
+				9AFFE29B22F70F11002659C9 /* SecondViewController.swift in Sources */,
+				9AFFE28B22F70E27002659C9 /* FirstViewController.swift in Sources */,
+				9AFFE29D22F70F20002659C9 /* ThirdViewController.swift in Sources */,
 				9AFFE28922F70E27002659C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZ2WU5BVYA;
 				INFOPLIST_FILE = SomethingAboutMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZ2WU5BVYA;
 				INFOPLIST_FILE = SomethingAboutMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
