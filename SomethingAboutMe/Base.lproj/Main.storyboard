@@ -269,8 +269,8 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="Ej3-rl-NWM">
                                                 <rect key="frame" x="55" y="0.0" width="140" height="117.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 декабря 1992" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWv-6m-yGz">
-                                                        <rect key="frame" x="0.0" y="0.0" width="106" height="18.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 декабря 1992г." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWv-6m-yGz">
+                                                        <rect key="frame" x="0.0" y="0.0" width="116" height="18.5"/>
                                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
                                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -365,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="68X-DM-MkT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6" y="339"/>
+            <point key="canvasLocation" x="-93" y="345"/>
         </scene>
         <!--My Photo-->
         <scene sceneID="dhT-6b-4JC">
@@ -396,7 +396,7 @@
                                 <rect key="frame" x="98" y="122" width="124" height="186.5"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YoungA" translatesAutoresizingMaskIntoConstraints="NO" id="lcQ-HK-2lI">
-                                <rect key="frame" x="20" y="328.5" width="280" height="187.00000000000023"/>
+                                <rect key="frame" x="20" y="328.5" width="280" height="187"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -423,7 +423,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WRe-7E-OkM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1382" y="167"/>
+            <point key="canvasLocation" x="1380" y="133"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Wa6-4X-aVm">
