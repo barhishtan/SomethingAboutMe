@@ -396,7 +396,7 @@
                                 <rect key="frame" x="98" y="122" width="124" height="186.5"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YoungA" translatesAutoresizingMaskIntoConstraints="NO" id="lcQ-HK-2lI">
-                                <rect key="frame" x="20" y="328.5" width="280" height="187"/>
+                                <rect key="frame" x="20" y="328.5" width="280" height="187.00000000000023"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
